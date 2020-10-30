@@ -82,9 +82,9 @@
                 scene.add(mesh);
 
                 // 球体 半径100  经纬度细分数50,50
-                let geometryBoll = new THREE.SphereGeometry(100, 50, 50);
-                let materialBoll = new THREE.MeshLambertMaterial({ color: 0x00FFFF, opacity: 0.5, transparent: true });
-                let mesh2 = new THREE.Mesh(geometryBoll, materialBoll);
+                let geometryBall = new THREE.SphereGeometry(100, 50, 50);
+                let materialBall = new THREE.MeshLambertMaterial({ color: 0x00FFFF, opacity: 0.5, transparent: true });
+                let mesh2 = new THREE.Mesh(geometryBall, materialBall);
                 mesh2.position.set(0, 100, -100);
                 mesh2.rotation.x = Math.PI * 0.2;
                 mesh2.rotation.y = Math.PI * 0.3;
